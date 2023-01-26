@@ -9,10 +9,7 @@ const Child = (props) => {
     return (
         
         <div>
-            Child component {childvalue.countChild}
-            <button type="button" onClick={onIncreaseCount}>Child button</button>
-            <button type="button" onClick={onIncreaseCount}>Child button</button>
-            <button type="button" onClick={onIncreaseCount}>Child button</button>
+           
         </div>
     )
 }
