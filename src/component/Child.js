@@ -10,9 +10,8 @@ const Child = (props) => {
         
         <div>
             Child component {childvalue.countChild}
-           
-
-                </div>
+            <button type="button" onClick={onIncreaseCount}>Child button</button>
+        </div>
     )
 }
 export default memo(Child)
